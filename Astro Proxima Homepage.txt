@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Astro Proxima Home
+</title>
+<link href= "humbleweedstyling.css" type= "text/css" rel= "stylesheet">
+</head>
+<body>
+	<div>
+		<h1></h1>
+	</div>
+	<div class= "springboard">
+		<table>
+			<tr>
+				<td>Home</td><td>About</td><td>Contact Us</td><td>Recall</td> 
+			</tr>
+		</table>
+	</div>
+	<div class = "description">
+	<p>
+	
+	</p>
+	</div>
+	
+</body>
+</html>
