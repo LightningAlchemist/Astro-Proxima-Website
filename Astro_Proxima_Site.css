@@ -1,64 +1,188 @@
-﻿img.logo{
-padding-left: 0px;
-padding-right-max: 20px;
-padding-right:5%;
-padding-top:0px;
-max-height: 90px;
-height: 10%;
-width: auto;
+﻿
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
 }
-a.menu {
-display: inline-block;
 
-text-align: top;
-color: black;
-overflow:hidden;
-text-decoration: none;
-font-family: Permanent Marker;
+li {
+    float: left;
 }
-a.menu:hover
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Orbitron;
+
+}
+img.logo{
+ max-height: 160px;
+ width: auto\9;
+ height:auto;
+}
+div.Astro-Proxima
 {
-background-color:grey;
+background-color: #556;
 }
-p.menu{
-border-left-style:solid;
-border-right-style:solid;
-border-width: 2px;
-padding-left: 2px;
-padding-right: 2px;
-margin: 0px;
+
+    li a:hover {
+    background-color: #777;
+    
 }
-div.top{
-position: fixed;
-top: 0;
-left: 0;
+li{
+border-right: 1px solid white;
+}
+
+.top{
 z-index: 1;
-background-color: rgb(249,249,250);
+}
+.content{
+margin-bottom: 100px;
+}
+
+body{
+background-color: Snow;
+}
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom:10px;
+   
+} 
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+.footer{
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:auto;   /* Height of the footer */
+   background-color: black;
+text-align: center;
+z-index: 1;
+margin-top: 20px;
+}
+.foot{
+  
+   width:100%;
+   height:auto;   
+   background-color: black;
+   text-align: center;
+}
+h3{
+color: white;
+font-family: Orbitron;
+margin-top: 5px;
+margin-bottom: auto;
+}
+.active{
+background-color:#444;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.content  {
+font-family: Orbitron;
+}
+.content 
+{
+font-size: 200%;
+}
+.CEO
+{
+padding: 10px;
+border-radius: 50%;
+ max-width: 300px;
+ height:10%;
+ width:auto/9;
+vertical-align: middle;
+margin-top: 5px;
+}
+.our-ceo
+{
+ background-color:white;
+}
+
+.timeline {
+height: auto;
 width: 100%;
-font-size: 150% max;
-font-size: 4.8vw;
-max-height: 90px;
+
+
+}
+.content h2{
+margin-left: 2%;
 }
 
-h1{
-font-family: Permanent Marker;
+.our-ceo {
+min-height: 400px;
+height:auto;
+width:100%;
+margin-auto;
+padding-bottom: 40px;
+
 }
-div.description
+img.jargo_logo
 {
-position:relative;
-top: 90px;
+margin-right: 15px; 
+max-height: 200px;
+ width: auto/9;
+ border-radius: 20%
 
 }
 
-div.content
-{
-position: absolute;
-top: 90px;
-top: 90px;
-padding: 1 em;
-
+.Jargonaut{
+height: 200px;
+margin-left: 5%;
+}
+.appLink{
+margin-left: 5%;
+margin-top: 5%;
 }
 
+
+.Espion{
+height: 200px;
+margin-left: 5%;
+}
 
 
 
